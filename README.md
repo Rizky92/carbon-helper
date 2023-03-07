@@ -10,9 +10,9 @@ there are 2 functions, `carbon` and `carbon_immutable`. The difference is that `
 ### Function `carbon`
 ```php
 $christmas = carbon('December 25, 2022');
-$chrismas->addDays(6);
+$christmas->addDays(6);
 
-echo $chrismas;  // 2022-12-31 00:00:00.0 Asia/Makassar (+08:00)
+echo $christmas;  // 2022-12-31 00:00:00.0 Asia/Makassar (+08:00)
 ```
 
 ### Function `carbon_immutable`
@@ -20,5 +20,5 @@ echo $chrismas;  // 2022-12-31 00:00:00.0 Asia/Makassar (+08:00)
 $christmas = carbon_immutable('December 25, 2022');
 $christmas->addDays(6);
 
-echo $chrismas;  // 2022-12-25 00:00:00.0 Asia/Makassar (+08:00)
+echo $christmas;  // 2022-12-25 00:00:00.0 Asia/Makassar (+08:00)
 ```
