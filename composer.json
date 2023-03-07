@@ -1,0 +1,21 @@
+{
+    "name": "rizky92/carbon-helper",
+    "description": "Helper for nesbot/carbon",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "^2.66"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rizky92",
+            "email": "myquinn489@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "stable"
+}
