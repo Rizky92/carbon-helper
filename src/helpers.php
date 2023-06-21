@@ -10,7 +10,7 @@ if (! function_exists('carbon')) {
      *
      * @throws \Carbon\Exceptions\InvalidFormatException
      *
-     * @return static
+     * @return \Carbon\Carbon
      * 
      * @see \Carbon\Carbon::parse()
      */
@@ -27,7 +27,7 @@ if (! function_exists('carbon_immutable')) {
      *
      * @throws \Carbon\Exceptions\InvalidFormatException
      *
-     * @return static
+     * @return \Carbon\Carbon
      * 
      * @see \Carbon\CarbonImmutable::parse()
      */
