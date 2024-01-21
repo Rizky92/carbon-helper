@@ -5,14 +5,14 @@ use Carbon\CarbonImmutable;
 
 if (! function_exists('carbon')) {
     /**
-     * @param string|DateTimeInterface|null $time
-     * @param DateTimeZone|string|null $tz
+     * @see \Carbon\Carbon
      *
-     * @throws \Carbon\Exceptions\InvalidFormatException
+     * @param  \DateTimeInterface|string|null  $time
+     * @param  \DateTimeZone|string|null  $tz
      *
      * @return \Carbon\Carbon
-     * 
-     * @see \Carbon\Carbon::parse()
+     *
+     * @throws \Carbon\Exceptions\InvalidFormatException
      */
     function carbon($time = null, $tz = null)
     {
@@ -22,14 +22,14 @@ if (! function_exists('carbon')) {
 
 if (! function_exists('carbon_immutable')) {
     /**
-     * @param string|DateTimeInterface|null $time
-     * @param DateTimeZone|string|null $tz
+     * @see \Carbon\CarbonImmutable
+     *
+     * @param  \DateTimeInterface|string|null  $time
+     * @param  \DateTimeZone|string|null  $tz
+     *
+     * @return \Carbon\CarbonImmutable
      *
      * @throws \Carbon\Exceptions\InvalidFormatException
-     *
-     * @return \Carbon\Carbon
-     * 
-     * @see \Carbon\CarbonImmutable::parse()
      */
     function carbon_immutable($time = null, $tz = null)
     {
